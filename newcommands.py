@@ -49,13 +49,21 @@ def dancing_handler(dancing):
     for i in range(6, 10):
         board.analog_write(5, i)
         board.analog_write(6, i)
-def left_handler(back):
+def left_handler(left):
     for i in range(1, 10):
      board.analog_write(5, i)
      board.analog_write(6, i)
     for i in range(1, 10):
      board.analog_write(5, i)
      board.analog_write(6, i)
+def right_handler(right):
+    for i in range(2, 1):
+     board.analog_write(5, i)
+     board.analog_write(6, i)
+    for i in range(2, 1):
+     board.analog_write(5, i)
+     board.analog_write(6, i)
+button_right.clicked.connect(right_handler)
 button_left.clicked.connect(left_handler)
 button_distance.clicked.connect(distance_handler)
 button_exit.clicked.connect(exit_handler)
