@@ -4,7 +4,8 @@
 - python codes 
 
 ![alt text](https://github.com/mohanad86/pyrobo/blob/master/images/install-python-3-mac-21894_630x210.jpg)
-![alt text](https://github.com/mohanad86/pyrobo/blob/master/images/50450-IMG_5222.jpg)Arduino
+### Arduino
+![alt text](https://github.com/mohanad86/pyrobo/blob/master/images/50450-IMG_5222.jpg)
 
 ### First you need to take a look for PyRobovision wiki page 
 - [To know how to install Firmata] (https://wiki.itcollege.ee/index.php/PyRobovision)
