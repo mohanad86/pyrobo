@@ -12,14 +12,14 @@
 
 - [Get to the Firamta page to see some examples] (https://wiki.itcollege.ee/index.php/Firmata)
   
-- [git clone] (https://github.com/MrYsLab/PyMata)
+- [git clone here PyMata] (https://github.com/MrYsLab/PyMata)
 
 ```
 $ cd Pymata 
 $ sudo python3 setup.py install
 ```
 ### Don't also forget to take a look for examples here
-- [Examples] (https://github.com/firmata/arduino) 
+- [Firmata Examples] (https://github.com/firmata/arduino) 
 ### If you are using Unbntu platform
  
 - Install python withing the follow commands
