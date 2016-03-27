@@ -5,15 +5,18 @@
 
 ![alt text](https://github.com/mohanad86/pyrobo/blob/master/images/install-python-3-mac-21894_630x210.jpg)
 
-### First you need to take a look for PyRobovision page 
+### First you need to take a look for PyRobovision wiki page 
 - [To know how to install Firmata] (https://wiki.itcollege.ee/index.php/PyRobovision)
-- [Get to the Firamta page to see some examples] (https://wiki.itcollege.ee/index.php/Firmata)  
+
+- [Get to the Firamta page to see some examples] (https://wiki.itcollege.ee/index.php/Firmata)
+  
 - [git clone] (https://github.com/MrYsLab/PyMata)
-'''
+
+''''
 $ cd Pymata 
 $ sudo python3 setup.py install
-'''
-## Don't also forget to take a look for examples here
+''''
+### Don't also forget to take a look for examples here
 - [Examples] (https://github.com/firmata/arduino) 
 ### If you are using Unbntu platform
  
