@@ -17,7 +17,24 @@
 - [Get to the Firamta page to see some examples] (https://wiki.itcollege.ee/index.php/Firmata)
   
 - [git clone here PyMata] (https://github.com/MrYsLab/PyMata)
-
+### If you want to install pygame with python3 follow the instructions
+- Get Pygame source code. So you need to download the last source code from the trunk, hopping it's not broken at this moment:
+```
+$ sudo apt-get install mercurial
+$ hg clone https://bitbucket.org/pygame/pygame
+$ cd pygame
+```
+- You also need to download the build dependency
+```
+$ sudo apt-get build-dep pygame
+$ sudo apt-get install python3-dev
+$ sudo apt-get install python3-numpy
+```
+- This will install dependency used by the version of pygame available on your package depot. Newer version maybe need other dependency! We also need to specify python3-dev and python3-numpy because, well, build-dep will install python2 version of this packages
+```
+$ python3 setup.py build
+$ sudo python3 setup.py install
+```
 ```
 $ cd Pymata 
 $ sudo python3 setup.py install
